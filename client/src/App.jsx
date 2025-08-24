@@ -6,6 +6,7 @@ import Auth from "./components/Auth";
 import Home from "./pages/Home";
 import { usePuterStore } from "./lib/puter";
 import Upload from "./pages/Upload";
+import Resume from "./pages/Resume";
 
 function App() {
   const {init} = usePuterStore();
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/upload" element={<Upload />} />
+        <Route path="/resume/:id" element={<Resume />} />
       </Routes>
 
     </BrowserRouter>

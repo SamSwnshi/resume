@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import { resumes } from "../../constant/index";
 import ResumeCard from "../components/ResumeCard";
 import { usePuterStore } from '../lib/puter';
-import { useLocation, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 const Home = () => {
     const {  auth } = usePuterStore();
