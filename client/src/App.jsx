@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import Auth from "./components/Auth";
 import Home from "./pages/Home";
 import { usePuterStore } from "./lib/puter";
 import Upload from "./pages/Upload";
 import Resume from "./pages/Resume";
+import WipeApp from "./pages/Wipe";
 
 function App() {
   const {init} = usePuterStore();
@@ -16,11 +16,12 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/upload" element={<Upload />} />
         <Route path="/resume/:id" element={<Resume />} />
+        <Route path="/wipe" element={<WipeApp />} />
       </Routes>
 
     </BrowserRouter>

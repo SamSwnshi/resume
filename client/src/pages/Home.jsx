@@ -30,7 +30,7 @@ export default function Home() {
     }, [kv]);
 
     return (
-        <main className="w-full bg-wallpaper bg-cover">
+        <main className="w-full wallpaper bg-cover min-h-screen">
             <Navbar />
             <section className="main-section">
                 <div className="page-heading py-16">

@@ -78,7 +78,7 @@ const Upload = () => {
         setFile(file)
     }
     return (
-        <main className="  background bg-cover">
+        <main className="wallpaper bg-cover">
             <Navbar />
             <section className="main-section">
                 <div className="page-heading py-16">

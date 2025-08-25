@@ -102,8 +102,8 @@ const CategoryContent = ({ tips }) => {
 
 const Details = ({ feedback }) => {
   return (
-    <div className="flex flex-col gap-4 w-full">
-      <Accordion>
+    <div className="flex flex-col gap-4 w-full bg-white ">
+      <Accordion >
         <AccordionItem id="tone-style">
           <AccordionHeader itemId="tone-style">
             <CategoryHeader

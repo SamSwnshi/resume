@@ -18,13 +18,17 @@
   --color-badge-yellow-text: #73321b;
 }
 
-html,
+/* html,
 body {
   @apply bg-white;
-}
+} */
 
 main {
-  @apply w-full min-h-screen pt-10 ;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 2.5rem; /* pt-10 spacing */
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  background-size: cover;
 }
 h1 {
   @apply max-sm:text-[3rem] text-6xl  text-gradient leading-tight xl:tracking-[-2px] font-semibold;
@@ -53,7 +57,7 @@ form {
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-[#AB8C95] via-[#000000] to-[#8E97C5];
   }
-  .wallpaper{
+  .wallpaper {
     background: linear-gradient(to right, #d9a7c7, #fffcdc);
   }
   .gradient-border {
@@ -78,10 +82,10 @@ form {
     @apply primary-gradient rounded-full py-4 px-8 cursor-pointer w-[600px] max-md:w-full text-3xl font-semibold text-white;
   }
   .main-section {
-    @apply flex flex-col items-center gap-8 pt-12 max-sm:mx-2 mx-15 pb-5 ;
+    @apply flex flex-col items-center gap-8 pt-12 max-sm:mx-2 mx-15 pb-5;
   }
   .page-heading {
-    @apply flex flex-col items-center gap-8 w-full text-center max-sm:gap-4 ;
+    @apply flex flex-col items-center gap-8 w-full text-center max-sm:gap-4;
   }
   .resumes-section {
     @apply flex flex-wrap max-md:flex-col max-md:gap-4 gap-6 items-start max-md:items-center w-full max-w-[1850px] justify-evenly;
