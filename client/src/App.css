@@ -27,8 +27,9 @@ main {
   width: 100%;
   min-height: 100vh;
   padding-top: 2.5rem; /* pt-10 spacing */
-  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  /* background: linear-gradient(to right, #d3cce3, #e9e4f0); */
   background-size: cover;
+  background: linear-gradient(to right, #d9a7c7, #fffcdc);
 }
 h1 {
   @apply max-sm:text-[3rem] text-6xl  text-gradient leading-tight xl:tracking-[-2px] font-semibold;

@@ -23,7 +23,6 @@ function App() {
         <Route path="/resume/:id" element={<Resume />} />
         <Route path="/wipe" element={<WipeApp />} />
       </Routes>
-
     </BrowserRouter>
   );
 }

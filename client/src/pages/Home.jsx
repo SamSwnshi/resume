@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import ResumeCard from "../components/ResumeCard";
 import { usePuterStore } from '../lib/puter';
 import { Link, useNavigate } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 export default function Home() {
     const { auth, kv } = usePuterStore();
@@ -63,6 +64,7 @@ export default function Home() {
                     </div>
                 )}
             </section>
+            <Footer/>
         </main>
     );
 }
