@@ -53,7 +53,7 @@ form {
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-[#AB8C95] via-[#000000] to-[#8E97C5];
   }
-  .background{
+  .wallpaper{
     background: linear-gradient(to right, #d9a7c7, #fffcdc);
   }
   .gradient-border {
