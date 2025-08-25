@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import ScoreCircle from './ScoreCircle'
 
 const ResumeCard = ({ resume }) => {
-    console.log(resume)
+    
     return (
         <Link to={`/resume/${resume.id}`} className='resume-card animate-in fade-in duration-1000'>
             <div className="resume-card-header">
