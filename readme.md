@@ -105,7 +105,7 @@ Edit
 ## Deploy
 
 ```
-* Frontend: https://task-management-sameer-suryawanshis-projects.vercel.app
+* Deployed: resume-ats-sameer-suryawanshis-projects.vercel.app
 ```
 
 ## Technologies
